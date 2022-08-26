@@ -1,0 +1,69 @@
+.courseDetailsBody{
+    margin: 10px 100px;
+    color: white;
+}
+.courseDetailPart1{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0 25px 0;
+}
+
+.courseImage{
+    flex:4;
+    min-width: 250px;
+    min-height: 250px;
+    background-color: aliceblue;
+    margin:10px
+}
+.courseAbout{
+    flex:3;
+    margin: 10px 15px;
+}
+.courseSubtitle{
+    margin:0;
+}
+.courseSubtitle p{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.courseMainTitle{
+    margin:0;
+}
+.courseMainTitle p{
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.courseAmount{
+    flex:1;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.INR, .USD{
+    flex:1;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #aee5ff
+}
+.courseDetailPart2{
+    display: flex;
+    margin:25px 0 50px 0;
+}
+.courseDetailPart2 div{
+    flex:1;
+    text-align: center;
+    min-height: 100px;
+    box-sizing: border-box;
+    margin: 10px;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 50px 100px -20px, rgba(255, 255, 255, 0.3) 0px 30px 60px -30px, rgba(255, 255, 255, 0.35) 0px -2px 6px 0px inset;
+}
+.courseDetailPart2 h4{
+    margin-bottom: 10px;
+}
+.courseDetailPart2 p{
+    margin-top: 10px;
+}
