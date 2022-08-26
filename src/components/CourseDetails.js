@@ -23,7 +23,7 @@ export default function CourseDetails(props) {
                 <>
                     <div className='courseDetailPart1'>
                         <div className='courseImage'>
-                            <img url={course[0].imageUrl} alt='course image' />
+                            <img src={course[0].imageUrl} alt='course image' />
                         </div>
                         <div className='courseAbout'>
                             <div className='courseTitle'>
